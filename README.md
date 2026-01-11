@@ -1,16 +1,38 @@
-# human_relation_app
+開発者プロフィール
+中村吉希（Nakamura Yoshiki）
+日本工学院八王子専門学校 情報系 2年生（2026年卒予定）
+2026年4月より東京工科大学コンピュータサイエンス学部3年次編入予定
+GitHub: pocota-0319
 
-A new Flutter project.
+概要
+- Flutter初学者としての個人開発プロジェクト
+- アプリの基本設計、実装、動作確認までを1人で実施
+- GitHubでバージョン管理・ログ管理を実施
+- 現在は開発途中段階
 
-## Getting Started
+主な機能
 
-This project is a starting point for a Flutter application.
+- 名前の一覧表示（ListViewによる構成）
+- 友人ごとの詳細情報ページ
+  - 初対面日、最終接触日、会話メモ、相手の写真など
+- 写真登録（ImagePickerを使用）
+- データ構造とレイアウトの分離設計（ModelとUI）
 
-A few resources to get you started if this is your first Flutter project:
+使用技術
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter / Dart
+- Git / GitHub
+- 今後導入予定：Firebase（Firestore, Authentication）
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+今後の開発予定
+
+- 検索機能（キーワードによる絞り込み）
+- Firebase連携（ユーザー認証とクラウドデータ保存）
+- UIの最適化（Material3対応）
+- ユーザーごとのデータ切り分け
+
+備考
+
+- 本プロジェクトは就職活動に向けた成果物の一環として取り組んでいます。
+- AIの補助を受けつつも、仕様の設計や動作確認、構造理解は自分で行っています。
+- 実装においてはFlutterの公式ドキュメントを参照しながら進めました。
